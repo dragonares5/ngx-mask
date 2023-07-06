@@ -24,7 +24,7 @@ import { NgxMaskService } from './ngx-mask.service';
 import { MaskExpression } from './ngx-mask-expression.enum';
 
 @Directive({
-    selector: 'input[mask], textarea[mask]',
+    selector: 'input[mask], textarea[mask], ion-input[mask]',
     standalone: true,
     providers: [
         {
